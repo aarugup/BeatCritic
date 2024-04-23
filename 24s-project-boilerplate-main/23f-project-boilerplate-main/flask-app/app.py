@@ -2,7 +2,7 @@
 # Main application interface
 ###
 
-# import the create app function 
+# import the create app function
 # that lives in src/__init__.py
 from src import create_app
 
