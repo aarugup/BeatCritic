@@ -18,12 +18,15 @@ This repo contains a boilerplate setup for spinning up 3 Docker containers:
 #Overview
 BeatCritic is a social media platform where people can post their critiques of music. The goal
 of this platform is to connect people through music in a way that currently doesnt exist on the
-market. A person can create a profile, which requires a phone number and their online name,
-and then begin to post about the music they like or dislike. If the song does not already exist
-in the database, they can create a new one and start posting reviews under it. Otherwise they
-simply find the song they wish to review, write a critique with a rating out of 5, and then post
-publicly. All ratings can be viewed by any user of the platform. This creates a community
-where people can learn about new music and share their own experiences with songs.
+market. A person can be either a user, follower, moderator or artist. They create a profile,
+which requires a phone number an email and their name. Users can post reviews on songs
+and rate them out of 5. Followers don’t post reviews, rather, they comment on existing
+reviews and can like them. Moderators monitor reviews and comments to ensure no
+harrassment is occurring, and generate reports when it is, deleting those posts. Artists can
+upload, update, and delete their own music to be revoewd, in order to learn about how people
+feel about it. All reviews and comments can be viewed by anyone on the platform. This
+creates a community where people can learn about new music and share their own
+experiences with songs.
 
 
 #Video Link
